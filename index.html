@@ -1,28 +1,100 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Restaurant Menu</title>
-  <style>
-    body { font-family: Arial, sans-serif; text-align: center; background: #f8f8f8; }
-    h1 { margin: 20px; }
-    .menu-section { margin: 30px 0; }
-    img { width: 90%; max-width: 400px; margin: 10px auto; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aarambh Restaurant Menu</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>🍴 Our Menu</h1>
-  <div class="menu-section">
-    <h2>Starters</h2>
-    <img src="images/starters.jpg" alt="Starters Menu">
-  </div>
-  <div class="menu-section">
-    <h2>Main Course</h2>
-    <img src="images/maincourse.jpg" alt="Main Course Menu">
-  </div>
-  <div class="menu-section">
-    <h2>Drinks</h2>
-    <img src="images/drinks.jpg" alt="Drinks Menu">
-  </div>
+  <header>
+    <h1>🍴 Aarambh Restaurant Menu</h1>
+  </header>
+
+  <main>
+    <!-- Starters -->
+    <section class="menu-section">
+      <h2>Starters</h2>
+      <div class="menu-item">
+        <h3>Paneer Tikka</h3>
+        <p>Grilled cottage cheese cubes marinated with spices.</p>
+        <span class="price">₹250</span>
+      </div>
+      <div class="menu-item">
+        <h3>Veg Manchurian</h3>
+        <p>Crispy fried vegetable balls in spicy Indo-Chinese sauce.</p>
+        <span class="price">₹220</span>
+      </div>
+    </section>
+
+    <!-- Main Course -->
+    <section class="menu-section">
+      <h2>Main Course</h2>
+      <div class="menu-item">
+        <h3>Paneer Butter Masala</h3>
+        <p>Cottage cheese cooked in rich tomato & butter gravy.</p>
+        <span class="price">₹320</span>
+      </div>
+      <div class="menu-item">
+        <h3>Dal Tadka</h3>
+        <p>Yellow lentils tempered with ghee, garlic & spices.</p>
+        <span class="price">₹180</span>
+      </div>
+      <div class="menu-item">
+        <h3>Chicken Biryani</h3>
+        <p>Fragrant basmati rice cooked with marinated chicken.</p>
+        <span class="price">₹350</span>
+      </div>
+    </section>
+
+    <!-- Breads -->
+    <section class="menu-section">
+      <h2>Breads</h2>
+      <div class="menu-item">
+        <h3>Butter Naan</h3>
+        <p>Soft tandoor-baked naan with butter.</p>
+        <span class="price">₹60</span>
+      </div>
+      <div class="menu-item">
+        <h3>Tandoori Roti</h3>
+        <p>Whole wheat flatbread baked in tandoor.</p>
+        <span class="price">₹40</span>
+      </div>
+    </section>
+
+    <!-- Desserts -->
+    <section class="menu-section">
+      <h2>Desserts</h2>
+      <div class="menu-item">
+        <h3>Gulab Jamun</h3>
+        <p>Deep-fried khoya balls soaked in sugar syrup.</p>
+        <span class="price">₹120</span>
+      </div>
+      <div class="menu-item">
+        <h3>Rasmalai</h3>
+        <p>Soft paneer patties in sweet saffron milk.</p>
+        <span class="price">₹140</span>
+      </div>
+    </section>
+
+    <!-- Beverages -->
+    <section class="menu-section">
+      <h2>Beverages</h2>
+      <div class="menu-item">
+        <h3>Masala Chai</h3>
+        <p>Traditional Indian spiced tea.</p>
+        <span class="price">₹50</span>
+      </div>
+      <div class="menu-item">
+        <h3>Sweet Lassi</h3>
+        <p>Refreshing yogurt-based sweet drink.</p>
+        <span class="price">₹90</span>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Aarambh Restaurant. All rights reserved.</p>
+  </footer>
 </body>
 </html>
