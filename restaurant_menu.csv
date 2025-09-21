@@ -1,0 +1,199 @@
+Category,Item,Price
+Juice,Fresh Mosambi Juice,80
+Juice,Fresh Pineapple Juice,80
+Juice,Fresh Apple Juice,90
+Juice,Fresh Watermelon Juice,90
+Juice,Fresh Orange Juice,80
+Juice,Fresh Mix Fruit Juice,100
+Upwas,French Fries,100
+Upwas,Sabudana Wada,110
+Upwas,Sabudana Khichdi,120
+Finger Chips,Masala French Fries,130
+Finger Chips,Cheese French Fries,140
+Finger Chips,Peri Peri Fries,150
+Finger Chips,French-Fry(Vpves),130
+Veg Indian Main Course,Kaju Curry,240
+Veg Indian Main Course,Kaju Masala,260
+Veg Indian Main Course,Kaju Angara,280
+Veg Indian Main Course,Mashroom Curry,250
+Veg Indian Main Course,Navratan Korma,250
+Veg Indian Main Course,Dum Aloo Punjabi,220
+Veg Indian Main Course,Veg Maharaja,250
+Veg Indian Main Course,Veg Angara,280
+Veg Indian Main Course,Mix Veg.,210
+Veg Indian Main Course,Veg Kolhapuri,220
+Veg Indian Main Course,Veg Kadhai,220
+Veg Indian Main Course,Tawa Veg.,240
+Veg Indian Main Course,Veg Bhuna Masala,220
+Veg Indian Main Course,Veg Diwani Handi,240
+Veg Indian Main Course,Shev Bhaji,220
+Veg Indian Main Course,Veg Khema Kaleji,200
+Veg Indian Main Course,Veg Patiyala,250
+Veg Indian Main Course,Green Peas Masala,190
+Veg Indian Main Course,Aloo Jeera,180
+Veg Indian Main Course,Aloo Gobi Mutter,200
+Veg Indian Main Course,Aloo Methi,190
+Veg Indian Main Course,Lahsooni Methi,220
+Veg Indian Main Course,Lahsooni Palak,190
+Veg Indian Main Course,Bhindi Do Pyaza,190
+Veg Indian Main Course,Bhindi Masala,190
+Veg Indian Main Course,Bhindi Nayantara,200
+Veg Indian Main Course,Veg Kofta,220
+Veg Indian Main Course,Baigan Masala,190
+Veg Indian Main Course,Rajasthani Kofta Curry,230
+Veg Indian Main Course,Shevga Masala,200
+Veg Indian Main Course,Baigan Bharta,180
+Veg Indian Main Course,Malai Kofta,250
+Veg Indian Main Course,Veg Maratha,190
+Veg Indian Main Course,Veg Jalfrezi,230
+Paneer Main Course,Paneer Masala,240
+Paneer Main Course,Paneer Angara,280
+Paneer Main Course,Paneer Butter Masala,280
+Paneer Main Course,Paneer Lajawab,270
+Paneer Main Course,Paneer Kadhai,280
+Paneer Main Course,Paneer Tikka Masala,280
+Paneer Main Course,Paneer Kaju Masala,320
+Paneer Main Course,Paneer Mashroom Masala,310
+Paneer Main Course,Paneer Lazeez,270
+Paneer Main Course,Paneer Varadhi,270
+Paneer Main Course,Paneer Lababdar,280
+Paneer Main Course,Paneer Lacchedar,290
+Paneer Main Course,Paneer Pasanda,300
+Paneer Main Course,Paneer Sooji,260
+Paneer Main Course,Paneer Akhbari,320
+Paneer Main Course,Paneer Bhurji Curry,270
+Paneer Main Course,Paneer Bhurji Dry,320
+Paneer Main Course,Paneer Banjara Masala,320
+Paneer Main Course,Paneer Mastani,300
+Paneer Main Course,Paneer Palak,280
+Paneer Main Course,Cheese Buttler Masala,290
+Paneer Main Course,Paneer Musalam,350
+Paneer Main Course,Paneer Shahi,300
+Paneer Main Course,Paneer Maharaja,320
+Paneer Main Course,Paneer Kolhapuri,310
+Paneer Main Course,Paneer Chatpata,300
+Paneer Main Course,Paneer Hyderabadi,320
+Paneer Main Course,Paneer Sultani,320
+Papad Section,Fry Papad,25
+Papad Section,Nagli Fry,30
+Papad Section,Roasted Papad,25
+Papad Section,Masala Papad,35
+Papad Section,Nagli Masala Papad,35
+Papad Section,Roasted Masala Papad,35
+Papad Section,Sindhi Papad,70
+Salad Section,Fresh Green Salad,100
+Salad Section,Onion Salad,70
+Salad Section,Kachumber Salad,120
+Salad Section,Kosimbir Salad,130
+Salad Section,Russian Salad,150
+Sandwiches Section,Veg. Sandwich,70
+Sandwiches Section,Veg. Cheese Sandwich,90
+Sandwiches Section,Veg. Grilled Sandwich,110
+Sandwiches Section,Veg. Cheese Grilled Sandwich,140
+Sandwiches Section,Club Sandwich,160
+Sandwiches Section,Paneer Sandwich,140
+Sandwiches Section,Bombay Sandwich,160
+Dal,Dal Jeera,120
+Dal,Dal Fry,140
+Dal,Dal Tadka,160
+Dal,Dal Kolhapuri,180
+Dal,Dal Makhani,220
+Dal,Dal Palak,150
+Dal,Dal Methi,160
+Dal,Dal Dhaba,150
+Rice,Steamed Rice,80/140
+Rice,Jeera Rice,90/160
+Rice,Masala Rice,180
+Rice,Butter Dal Khichadi,200
+Rice,Dal Tadka Khichadi,220
+Rice,Onion Rice,200
+Rice,Garlic Rice,200
+Rice,Veg Pulav,210
+Rice,Green Peas Pulav,240
+Rice,Kashmiri Pulav,250
+Biryani,Veg Biryani,250
+Biryani,Veg Dum Biryani,270
+Biryani,Veg Hyadrabadi Biryani,290
+Biryani,Paneer Tikka Biryani,300
+Biryani,Arambh Sp. biryani,350
+Raita,Boondi Raita,100
+Raita,Pineapple Raita,120
+Raita,Veg. Raita,80
+Raita,Fruit Raita,150
+Soup,Tomato Soup,110
+Soup,Manchaw Soup,130
+Soup,Hot & Sour Soup,120
+Soup,Palak Soup,110
+Soup,Mushroom Soup,120
+Soup,Cream Of Mushroom Soup,150
+Soup,Lemon Coriander Soup,120
+Soup,Veg. Clear Soup,100
+Soup,Sweet Corn Soup,130
+Soup,Minestrone Soup,140
+Pizza,Veg. Pizza,200
+Pizza,Veg. Cheese Pizza,230
+Pizza,Margherita Pizza,210
+Pizza,Cheese Corn Pizza,250
+Pizza,Mushroom Pizza,220
+Pizza,Paneer Tikka Pizza,250
+Pizza,Tandoori Paneer Pizza,250
+Pizza,Mexican Pizza,280
+Mocktail,Blue Logan,110
+Mocktail,Virgin Mojito,110
+Mocktail,Rose Mojito,120
+Mocktail,Strawberry Fizz,110
+Mocktail,Sunset,140
+Mocktail,Fresh Lime Water,30
+Mocktail,Fresh Lime Soda,40
+Chinese Starter,Veg. Manchurian,180
+Chinese Starter,Veg. Crispy,200
+Chinese Starter,Veg. Crunchy,220
+Chinese Starter,Veg. 65,240
+Chinese Starter,Veg. Lollipop,250
+Chinese Starter,Veg. Spring Roll,260
+Chinese Starter,Honey Chilli Potato,200
+Chinese Starter,Mushroom 65,220
+Chinese Starter,Mushroom Chilly,210
+Chinese Starter,Crispy Corn,200
+Chinese Starter,Chainese Ball,220
+Chinese Starter,Chinese Bhell,180
+Chinese Starter,Cheese Methi Corn Tikki,230
+Chinese Starter,Paneer Chilly Dry,230
+Chinese Starter,Paneer Manchurian,220
+Chinese Starter,Paneer 65,230
+Chinese Starter,Paneer Crispy Finger,240
+Chinese Starter,Paneer Hot Pan,250
+Chinese Starter,Paneer Dragon,280
+Chinese Starter,Paneer Crunchy,250
+Chinese Starter,Paneer Sathe,280
+Chinese Starter,Chinese Plater,450
+Noodles,Veg. Noodles,150
+Noodles,Veg. Hakka Noodles,160
+Noodles,Schezwan Noodles,220
+Noodles,Manchurian Noodles,200
+Noodles,Tripple Shezwan Noodles,260
+Noodles,Singapuri Noodles,230
+Sizzler,Veg. Sizzler,260
+Sizzler,Veg. Stick Sizzler,280
+Sizzler,Paneer Tikka Sizzler,300
+Sizzler,Peri Peri Cottage Cheese Sizzler,320
+Tandoor Starter,Hara Bhara Kabab,200
+Tandoor Starter,Veg. Seekh Kabab,220
+Tandoor Starter,Tandoori Mushroom,220
+Tandoor Starter,Paneer Tikka,230
+Tandoor Starter,Paneer Pahadi Tikka,280
+Tandoor Starter,Paneer Banjara Tikka,280
+Tandoor Starter,Paneer Lasuni Tikka,280
+Tandoor Starter,Paneer Achari Tikka,280
+Tandoor Starter,Paneer Malai Tikka,280
+Tandoor Starter,Dahi Malai Kabab,200
+Tandoor Starter,Paneer Shole,300
+Tandoor Starter,Aloo Firadausi,300
+Tandoor Starter,Paneer Reshmi Kabab,300
+Tandoor Starter,Bureshi Kabab,250
+Tandoor Starter,Tandoori Platter,750
+Colddrink And Mineral Water,Water Bottle,MRP
+Colddrink And Mineral Water,Thumsup,MRP
+Colddrink And Mineral Water,Sprite,MRP
+Colddrink And Mineral Water,Red Bull,MRP
+Colddrink And Mineral Water,Sting,MRP
