@@ -1,10 +1,8 @@
-// script.js
 async function loadMenuCSV(path) {
   try {
     const resp = await fetch(path);
     if (!resp.ok) throw new Error(`HTTP ${resp.status} - ${resp.statusText}`);
-    const text = await resp.text();
-    return text;
+    return await resp.text();
   } catch (e) {
     throw new Error(`Failed to load menu CSV: ${e.message}`);
   }
@@ -38,7 +36,7 @@ function parseCSV(text) {
   const lines = text.split(/\r?\n/).filter(l => l.trim().length > 0);
   if (lines.length === 0) return [];
   const headers = splitCSVLine(lines[0]);
-  const rows = lines.slice(1).map(line => {
+  return lines.slice(1).map(line => {
     const cols = splitCSVLine(line);
     const obj = {};
     headers.forEach((h, idx) => {
@@ -46,14 +44,12 @@ function parseCSV(text) {
     });
     return obj;
   });
-  return rows;
 }
 
 function renderMenu(rows) {
   const container = document.getElementById('menu');
-  container.innerHTML = ''; // clear
+  container.innerHTML = '';
 
-  // Build category map
   const byCat = {};
   rows.forEach(r => {
     const cat = (r.Category ?? '').trim();
@@ -75,9 +71,12 @@ function renderMenu(rows) {
     details.className = 'details';
 
     const summary = document.createElement('summary');
-    summary.textContent = cat;
-    details.appendChild(summary);
+    const arrow = document.createElement('span');
+    arrow.className = 'arrow';
+    arrow.textContent = '▼';
 
+    summary.append(document.createTextNode(cat), arrow);
+    details.appendChild(summary);
     const panel = document.createElement('div');
     panel.className = 'panel';
     const ul = document.createElement('ul');
@@ -99,13 +98,21 @@ function renderMenu(rows) {
     details.appendChild(panel);
     container.appendChild(details);
 
-    // animate height on open/close
     panel.style.maxHeight = '0px';
     details.addEventListener('toggle', () => {
       if (details.open) {
         panel.style.maxHeight = panel.scrollHeight + 'px';
+        arrow.textContent = '▲';
       } else {
         panel.style.maxHeight = '0px';
+        arrow.textContent = '▼';
+      }
+    });
+
+    summary.addEventListener('keydown', (e) => {
+      if ([' ', 'Enter'].includes(e.key)) {
+        e.preventDefault();
+        details.open = !details.open;
       }
     });
   });
