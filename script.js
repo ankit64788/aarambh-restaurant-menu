@@ -78,11 +78,14 @@ function renderMenu(rows) {
     summary.textContent = cat;
     details.appendChild(summary);
 
+    const panel = document.createElement('div');
+    panel.className = 'panel';
     const ul = document.createElement('ul');
     ul.className = 'menu-items';
     byCat[cat].forEach(it => {
       const li = document.createElement('li');
       const name = document.createElement('span');
+      name.className = 'item-name';
       name.textContent = it.item;
       const price = document.createElement('span');
       price.className = 'price';
@@ -92,8 +95,19 @@ function renderMenu(rows) {
       ul.appendChild(li);
     });
 
-    details.appendChild(ul);
+    panel.appendChild(ul);
+    details.appendChild(panel);
     container.appendChild(details);
+
+    // animate height on open/close
+    panel.style.maxHeight = '0px';
+    details.addEventListener('toggle', () => {
+      if (details.open) {
+        panel.style.maxHeight = panel.scrollHeight + 'px';
+      } else {
+        panel.style.maxHeight = '0px';
+      }
+    });
   });
 }
 
